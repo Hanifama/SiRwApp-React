@@ -1,7 +1,8 @@
-import people from '../../assets/images/people.png';
-import ai from '../../assets/images/ai.png';
+import people from '../../assets/images/people.png'
+import ai from '../../assets/images/ai.png'
+
 import './Home.css'
-import { Navbarhome } from "../../components/index";
+import { Navbarhome } from "../../components/index"
 
 const Home = () => {
   return (
@@ -10,17 +11,17 @@ const Home = () => {
 
        <div className="gpt3__header section__padding" id="home">
           <div className="gpt3__header-content">
-            <h1 className="gradient__text">Let&apos;s Build Something amazing with Rw</h1>
-            <p>Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise blessing. Indulgence way everything joy alteration boisterous the attachment. Party we years to order allow asked of.</p>
+            <h1 className="gradient__text">Let&apos;s GO Bergabung dengan Si Rw</h1>
+            <p>Si Rw adalah Sistem Informasi berbasis web dimana pada sistem ini mengatur sebuah data yang relevan dan realtime secara waktu</p>
   
             <div className="gpt3__header-content__people">
-              <img src={people} alt='photo' />
-              <p>1,600 people requested access a visit in last 24 hours</p>
+              <img src={people} alt="" />
+              <p>1,456 data terdaftar dalam 24 jam</p>
             </div>
           </div>
 
           <div className="gpt3__header-image">
-            <img src={ai}  />
+            <img src={ai} alt="images"  />            
           </div>
         </div>
     </section>

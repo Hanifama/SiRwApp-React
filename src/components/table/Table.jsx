@@ -13,50 +13,50 @@ const List = () => {
       id: 1143155,
       product: "Acer Nitro 5",
       img: "https://m.media-amazon.com/images/I/81bc8mA3nKL._AC_UY327_FMwebp_QL65_.jpg",
-      customer: "Dono",
+      customer: "Acer",
       date: "1 March",
       amount: 785,
-      method: "Cash on Delivery",
+      method: "Ketua RT",
       status: "Approved",
     },
     {
       id: 2235235,
-      product: "Playstation 5",
+      product: "Dana Subardjo",
       img: "https://m.media-amazon.com/images/I/31JaiPXYI8L._AC_UY327_FMwebp_QL65_.jpg",
-      customer: "Dono",
-      date: "1 March",
+      customer: "Dana",
+      date: "2 March",
       amount: 900,
-      method: "Online Payment",
+      method: "Kepala desa",
       status: "Pending",
     },
     {
       id: 2342353,
-      product: "Redragon S101",
+      product: "Redragon ",
       img: "https://m.media-amazon.com/images/I/71kr3WAj1FL._AC_UY327_FMwebp_QL65_.jpg",
-      customer: "Dono",
-      date: "1 March",
+      customer: "Redra",
+      date: "3 March",
       amount: 35,
-      method: "Cash on Delivery",
+      method: "Ketua RW",
       status: "Pending",
     },
     {
       id: 2357741,
-      product: "Razer Blade 15",
+      product: "Razer Blade",
       img: "https://m.media-amazon.com/images/I/71wF7YDIQkL._AC_UY327_FMwebp_QL65_.jpg",
-      customer: "Dono",
-      date: "1 March",
+      customer: "Razer",
+      date: "4 March",
       amount: 920,
-      method: "Online",
+      method: "Kepala desa",
       status: "Approved",
     },
     {
       id: 2342355,
-      product: "ASUS ROG Strix",
+      product: "Agas Subardi",
       img: "https://m.media-amazon.com/images/I/81hH5vK-MCL._AC_UY327_FMwebp_QL65_.jpg",
-      customer: "Dono",
-      date: "1 March",
+      customer: "Agas",
+      date: "5 March",
       amount: 2000,
-      method: "Online",
+      method: "Dirjen Polda",
       status: "Pending",
     },
   ];
@@ -70,7 +70,7 @@ const List = () => {
             <TableCell className="tableCell">Username</TableCell>
             <TableCell className="tableCell">Date</TableCell>
             <TableCell className="tableCell">Amount</TableCell>
-            <TableCell className="tableCell">Payment Method</TableCell>
+            <TableCell className="tableCell">Jabatan</TableCell>
             <TableCell className="tableCell">Status</TableCell>
           </TableRow>
         </TableHead>

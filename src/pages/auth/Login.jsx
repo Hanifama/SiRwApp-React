@@ -36,7 +36,7 @@ const Login = () => {
     <>
     <div className="w-full h-auto flex flex-col items-center justify-center">
         {/* Login Page */}
-        <div className="bg-gray-100 flex rounded-2xl shadow-lg max-w-3xl h-[450px] p-5">
+        <div className="bg-gray-100 flex mt-[90px] rounded-2xl shadow-lg max-w-3xl h-[450px] p-5">
             {/* Form */}
             <motion.div 
             initial={{opacity : 0, x : 200 }}
@@ -45,7 +45,7 @@ const Login = () => {
             className="w-1/2 px-16 sm:w-1/2"
             >
                 <h2 className="font-bold text-2xl text-textColor">Login</h2>
-                <p className="text-sm mt-4">Tekido Siap Membantu Anda</p>
+                <p className="text-sm mt-4">Masukan account kami siap Membantu Anda</p>
 
                 <form onSubmit={loginUser} className="flex flex-col gap-4">
                     <input 

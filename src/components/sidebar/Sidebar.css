@@ -2,7 +2,7 @@
     flex: 1;
     border-right: 0.5px solid #e6e3e3;
     min-height: 100vh;
-    background-color: white;
+    background-color: whitesmoke;
   }
   .sidebar .top {
     height: 50px;
@@ -13,7 +13,7 @@
   .sidebar .top .logo {
     font-size: 20px;
     font-weight: bold;
-    color: #6439ff;
+    color: var(--color-bg);
   }
   .sidebar hr {
     height: 0;
@@ -45,7 +45,7 @@
   }
   .sidebar .center ul li .icon {
     font-size: 18px;
-    color: #1c0279;
+    color: var(--color-bg);
   }
   .sidebar .center ul li span {
     font-size: 13px;
@@ -62,7 +62,7 @@
     width: 20px;
     height: 20px;
     border-radius: 5px;
-    border: 1px solid #7451f8;
+    border: 1px solid var(--color-blog);
     cursor: pointer;
     margin: 5px;
   }

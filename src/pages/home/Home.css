@@ -141,6 +141,7 @@ a {
   text-align: center;
 }
 
+
 .gpt3__header-image {
   flex: 1;
   display: flex;
@@ -164,6 +165,7 @@ a {
 }
 
 @media screen and (max-width: 650px) {
+  
   .gpt3__header-content h1 {
       font-size: 48px;
       line-height: 60px;

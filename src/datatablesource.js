@@ -179,7 +179,7 @@ export const officerRows = [
     Rt : "09",
     Rw : "11",
     village : "Desa Cagak",
-    subDistrict : "Jaya",
+    subDistrict : "Tanjung Minang",
     city : "Bekasi",
     province : "Jawa Barat",
     religion : "Islam",

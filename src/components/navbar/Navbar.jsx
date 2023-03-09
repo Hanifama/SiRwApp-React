@@ -1,4 +1,5 @@
 import "./Navbar.css";
+import avatar from "../../assets/images/avatar.png"
 import SearchOutlinedIcon from "@mui/icons-material/SearchOutlined";
 import LanguageOutlinedIcon from "@mui/icons-material/LanguageOutlined";
 import DarkModeOutlinedIcon from "@mui/icons-material/DarkModeOutlined";
@@ -46,8 +47,8 @@ const Navbar = () => {
           </div>
           <div className="item">
             <img
-              src="https://images.pexels.com/photos/941693/pexels-photo-941693.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
-              alt=""
+              src={avatar}
+              alt="avatar"
               className="avatar"
             />
           </div>

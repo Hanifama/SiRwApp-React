@@ -72,7 +72,7 @@ const Registration = () => {
   return (
     <div className="w-full h-auto flex flex-col items-center justify-center">
         <ToastContainer/>
-        <div className='flex justify-center items-center'>
+        <div className='flex mt-[90px] justify-center items-center'>
             {
                 formArray.map((v,i)=>
                 <>
@@ -136,7 +136,7 @@ const Registration = () => {
                             />             
                         </div>
                         <div className="flex flex-col">
-                        <label htmlFor="confirm password" className='text-slate-500 '> confirmpassword</label>
+                        <label htmlFor="confirm password" className='text-slate-500 '> confirm password</label>
                         <input 
                             className="p-2 rounded-xl w-full border bg-white text-textColor"
                             type="password" 
